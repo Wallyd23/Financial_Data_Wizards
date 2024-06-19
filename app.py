@@ -32,7 +32,7 @@ def get_data():
     # Get the database connection using the function defined above
     conn = get_db() 
     # SQL query to fetch data 
-    query = 'SELECT * FROM your_table;'
+    query = 'SELECT * FROM ETFprices;'
     # Execute the SQL query and load the results into a pandas DataFrame  
     df = pd.read_sql_query(query, conn) 
     # Convert the DataFrame to a dictionary and then to a JSON object 
