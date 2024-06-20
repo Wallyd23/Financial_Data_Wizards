@@ -36,6 +36,15 @@ def get_db():
     engine = create_engine(conn_str)
     return engine
 
+@app.route('/')
+def welcome():
+    return(
+        "Available routes:<br>"
+        f"<a href =\"/api/data\">/api/data<br/>"
+        f"<a href =\"/api/etfprices\">/api/etfprices<br/>"
+        #Plan our pictures, dashboard
+    )
+
 # Define a route for your API
 @app.route('/api/data')
 def get_data():
@@ -54,7 +63,7 @@ def get_data():
 @app.route('/api/etfprices')
 def get_etf_data():
     engine = get_db()
-    query = 'SELECT * FROM public."ETFprices";'
+    query = 'SELECT * FROM public."ETFprices" LIMIT 100;'
     df = pd.read_sql_query(query, engine)
     return jsonify(df.to_dict(orient='records'))
 
