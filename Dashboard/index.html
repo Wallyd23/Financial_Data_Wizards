@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+    <meta charset="UTF-8">
+    <meta name=“viewport” content=“width=device-width, initial-scale="1.0">
+    <title>Document Viewer</title>
+</head>
+<body>
+    <h1>Select a Document or Image</h1>
+    <select id=“documentSelector” onchange="changeDocument()">
+        <option value=djiafigure.html>DJIA f (HTML)</option>
+        <option value=etfprices.png>ETF Prices</option>
+        <option value=nasdaqfigure.html>Nasdaq figure (HTML)</option>
+        <option value=AADRfigure.html>AADR (HTML)</option>
+        <option value=AAXJfigure.html>AAXJ (HTML)</option>
+        <option value=nysefigure.html>NYSE figure (HTML)</option>
+        <option value=sp500figure.html>SP500 figure (HTML)</option>
+        <option value=ZIVZfigure.html>ZIVZ figure (HTML)</option>
+        <option value=ZROZfigure.html>ZROZ figure (HTML)</option>
+        <option value=ZSLfigure.html>ZSL figure (HTML)</option>
+    </select>
+    <br><br>
+    <iframe id=displayedDocument src=AADRfigure.html style="width:600px; height: 400px;"></iframe>
+    <script src=“script.js”></script>
+</body>
+</html>
