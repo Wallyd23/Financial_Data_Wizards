@@ -3,36 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time Series Plot with D3.js</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="script.js" defer></script>
-    <style>
-        .line {
-            fill: none;
-            stroke-width: 2px;
-        }
-    </style>
+    <title>Document Viewer</title>
 </head>
 <body>
-    <div id="plot"></div>
-    <select id="selDataset">
-        <option value="djiafigure">DJIA</Notebooks/djiafigure.html>
-        <option value="nasdaqfigure">NASDAQ</Notebooks/nasdaqfigure.html>
-        <option value="nysefigure">NYSE</Notebooks/nysefigure.html>
-        <option value="sp500figure">S&P500</Notebooks/sp500figure.html>
-      </select>
-      <script src="plots.js"></script>
+    <h1>Select a Document or Image</h1>
+    <select id="documentSelector" onchange="changeDocument()">
+        <option value="djiafigure">DJIA</option>
+        <option value="nasdaqfigure">NASDAQ</option>
+        <option value="nysefigure">NYSE</option>
+        <option value="sp500figure">S&P500</option>
+    </select>
+    <br><br>
+    <iframe id="displayedDocument" src="document1.html" style="width: 600px; height: 400px;"></iframe>
+    <script src="script.js"></script>
 </body>
-<div id="plot"></div>
-    <select id="selDataset">
-        <option value="AADRfigure">AADR</Notebooks/AADRfigure.html>
-        <option value="AAXJfigure">AAXJ</Notebooks/AAXJfigure.html>
-        <option value="ZIVZfigure">ZIVZ</Notebooks/ZIVZFfigure.html>
-        <option value="ZROZfigure">ZROZ</Notebooks/ZROZfigure.html>
-        <option value="ZSLfigure">ZSL</Notebooks/ZSLfigure.html>
-        <option value="etfprices">ETF</Notebooks/etfprices.png>
-        <option value="Indexprices">Index</Notebooks/Indexprices.png>
-          </select>
-          <div id="plot"></div>
-
+    <h1>Select a Document or Image</h1>
+    <select id="documentSelector" onchange="changeDocument()">
+        <option value="AADRfigure">AADR</option>
+        <option value="AAXJfigure">AAXJ</option>
+        <option value="ZIVZfigure">ZIVZ</option>
+        <option value="ZROZfigure">ZROZ</option>
+        <option value="ZSLfigure">ZSL</option>
+        <option value="etfprices">ETF</option>
+        <option value="Indexprices">Index</Noption>
+    </select>
+    <br><br>
+    <iframe id="displayedDocument" src="document1.html" style="width: 600px; height: 400px;"></iframe>
+    <script src="script.js"></script>
 </html>
