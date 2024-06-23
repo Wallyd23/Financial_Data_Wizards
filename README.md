@@ -11,3 +11,7 @@ https://www.kaggle.com/datasets/stefanoleone992/mutual-funds-and-etfs
 https://www.marketwatch.com/investing/index/spx/download-data?mod=mw_quote_tab
 https://www.marketwatch.com/investing/index/nya/download-data?mod=mw_quote_tab
 https://www.marketwatch.com/investing/index/ndx/download-data?mod=mw_quote_tab
+https://towardsdatascience.com/how-to-make-multi-index-index-charts-with-plotly-4d3984cd7b09
+https://github.com/nikitakhutorni/multi-index-chart/blob/main/MultiIndexChart/multi_index_chart.ipynb
+https://medium.com/@yushuhearn/mastering-multi-chart-visualization-captivating-line-charts-for-top-stocks-and-sector-rotation-1e628873e407
+
