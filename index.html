@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Series Plot with D3.js</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        .line {
+            fill: none;
+            stroke-width: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="plot"></div>
+    <select id="selDataset">
+        <option value="djiafigure">DJIA</option>
+        <option value="nasdaqfigure">NASDAQ</option>
+        <option value="nysefigure">NYSE</option>
+        <option value="sp500figure">S&P500</option>
+      </select>
+      <script src="plots.js"></script>
+</body>
+<div id="plot"></div>
+    <select id="selDataset">
+        <option value="AADRfigure">AADR</option>
+        <option value="AAXJfigure">AAXJ</option>
+        <option value="ZIVZfigure">ZIVZ</option>
+        <option value="ZROZfigure">ZROZ</option>
+        <option value="ZSLfigure">ZSL</option>
+      </select>
+</html>
