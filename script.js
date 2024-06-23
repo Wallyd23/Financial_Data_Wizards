@@ -21,12 +21,12 @@ function init() {
     let x = [];
     let y = [];
   
-    if (dataset === 'dataset1') {
+    if (dataset === 'djiafigure') {
       x = [1, 2, 3, 4, 5];
       y = [1, 2, 4, 8, 16];
     }
   
-    else if (dataset === 'dataset2') {
+    else if (dataset === 'nasdaqfigure') {
       x = [10, 20, 30, 40, 50];
       y = [1, 10, 100, 1000, 10000];
     }
